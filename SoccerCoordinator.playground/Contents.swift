@@ -1,4 +1,5 @@
-//: Playground - noun: a place where people can play
+//SoccerCoordinator: A treehouse techdegree project
+//By: Jari Koopman
 
 import UIKit
 
@@ -193,6 +194,7 @@ while heightsEvenlySpread == false {
                 }
                 return Double(nexpRaptorsTotalHeight)/Double(nexpRaptors.count)
             }
+            //Check if the average heights are not too different
             if heightSorter(firstHeight: Double(nexpRaptorsAverageHeight), secondHeight: Double(nexpSharksAverageHeight), thirdHeight: Double(nexpDragonsAverageHeight)) == true {
                 nexpSuccessDivided = true
                 var player: Int = 0
@@ -257,28 +259,3 @@ print("====================")
 sendLetters(team: sharks, teamName: "Sharks")
 sendLetters(team: raptors, teamName: "Raptors")
 sendLetters(team: dragons, teamName: "Dragons")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
