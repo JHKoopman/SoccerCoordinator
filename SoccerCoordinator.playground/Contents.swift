@@ -248,7 +248,7 @@ let practiceTimes: [String: [String: String]] = ["Sharks":["Date": "March 17", "
 
 func sendLetters(team: [Int], teamName: String) {
     for player in team {
-        print("\nDear \(players[player]["Guardian"]!),\n \nYour child, \(players[player]["Name"]!), has been added into the \(teamName) team.\nThe team trainings will be on: \(practiceTimes[teamName]!["Date"]!) at \(practiceTimes[teamName]!["Time"]!).\nWe hope to see you there!\n \nKind Regards,\nJari Koopman,\nOrganizer\n")
+        print("\nDear \(players[player]["Guardian"]!),\n \nYour child, \(players[player]["Name"]!), has been added into the \(teamName) team.\nThe training will be on: \(practiceTimes[teamName]!["Date"]!) at \(practiceTimes[teamName]!["Time"]!).\nWe hope to see you there!\n \nKind Regards,\nJari Koopman,\nOrganizer\n")
         print("====================")
         
     }
